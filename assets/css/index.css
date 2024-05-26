@@ -738,7 +738,7 @@ img {
 
 .tokenomics {
     display: flex;
-    padding: 5vw 10vw 0 0;
+    padding: 5vw 5vw 0 0;
     background: #F4B6D0;
 }
 
@@ -750,6 +750,7 @@ img {
 }
 
 .tokenomics .left img {
+    margin-top: 25vw;
     margin-bottom: 4vw;
 }
 
