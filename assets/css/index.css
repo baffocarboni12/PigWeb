@@ -1347,16 +1347,16 @@ footer .socials a img {
         height: 50vw;
     }
     .tokenomics .left img {
-        width: 80%;
+        width: 100%;
         margin-bottom: 5vw;
     }
     .tokenomics .left {
         text-align: center;
     }
     .tokenomics h1 {
-        margin-bottom: 4vw;
+        margin-bottom: 15vw;
         text-align: center;
-        padding-left: 0;
+        padding-left: 5;
     }
 
     /* -----------------footer-------- */
