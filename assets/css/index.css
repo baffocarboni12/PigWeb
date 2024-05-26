@@ -1368,37 +1368,29 @@ footer .socials a img {
     /* ----------------tokenomics---------- */
     .tokenomics {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
         padding: 10vw 0vw 0 0;
     }
-    
     .tokenomics .right {
         height: 50vw;
-        order: 2;
     }
-    
     .tokenomics .left img {
         width: 60%;
         margin-bottom: 0vw;
     }
-    
     .tokenomics .left {
         text-align: center;
-        order: 1;
     }
-    
     .tokenomics h1 {
         margin-bottom: 4vw;
         text-align: center;
         padding-left: 0;
     }
-    
     .tokenomics .ca {
         position: absolute;
         right: 22vw;
         margin-top: 12vw;
     }
-    
     .tokenomics .ca input {
         position: relative;
         width: 60vw;
@@ -1414,14 +1406,13 @@ footer .socials a img {
         font-style: normal;
         font-weight: 400;
         line-height: 130%;
+        /* 130% */
     }
-    
     .tokenomics .ca .btn-group {
         position: absolute;
         right: -0.5vw;
         top: -10vw;
     }
-    
     .tokenomics .ca .btn-group a img {
         width: 17vw;
     }
