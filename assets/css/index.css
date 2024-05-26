@@ -1369,16 +1369,16 @@ footer .socials a img {
     .tokenomics {
         display: flex;
         flex-direction: column-reverse;
-        padding: 6vw 0vw 0 0;
+        padding: 2vw 0vw 0 0;
     }
     .tokenomics .right {
-        height: 90vw;
+        height: -5vw;
     }
     .tokenomics .left img {
         width: 80%;
         margin-bottom: 5vw;
     }
-    .tokenomics .left {
+    .tokenomics .right {
         text-align: center;
     }
     .tokenomics h1 {
