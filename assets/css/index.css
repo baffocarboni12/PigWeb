@@ -1376,7 +1376,7 @@ footer .socials a img {
     }
     .tokenomics .left img {
         width: 60%;
-        margin-bottom: -6vw;
+        margin-bottom: +6vw;
     }
     .tokenomics .left {
         text-align: center;
