@@ -1368,55 +1368,25 @@ footer .socials a img {
     /* ----------------tokenomics---------- */
     .tokenomics {
         display: flex;
-        flex-direction: column-reverse;
-        padding: 10vw 0vw 0 0;
-    }
-    .tokenomics .right {
-        height: 50vw;
-    }
-    .tokenomics .left img {
-        width: 60%;
-        margin-bottom: 0vw;
-    }
-    .tokenomics .left {
-        text-align: center;
-    }
-    .tokenomics h1 {
-        margin-bottom: 4vw;
-        text-align: center;
-        padding-left: 0;
-    }
-    .tokenomics .ca {
-        position: absolute;
-        right: 22vw;
-        margin-top: 12vw;
-    }
-    .tokenomics .ca input {
-        position: relative;
-        width: 60vw;
-        background: #EAFF15;
-        padding: 1.2vw 2vw;
-        border: 3px solid #000;
-        transform: skewY(-2.35deg);
-        margin-top: -3vw;
-        color: #000;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
-        font-family: Akbar;
-        font-size: 2.5vw;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 130%;
-        /* 130% */
-    }
-    .tokenomics .ca .btn-group {
-        position: absolute;
-        right: -0.5vw;
-        top: -10vw;
-    }
-    .tokenomics .ca .btn-group a img {
-        width: 17vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 0;
+        background: #F4B6D0;
     }
 
+    .tokenomics img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tokenomics h1 {
+        text-align: center;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    
     /* -----------------footer-------- */
     footer {
         display: flex;
