@@ -743,14 +743,14 @@ img {
 }
 
 .tokenomics h1 {
-    margin-top: 30vw;
-    margin-bottom: 25vw;
+    margin-top: 25vw;
+    margin-bottom: 20vw;
     padding-left: 25vw;
     text-align: left;
 }
 
 .tokenomics .left img {
-    margin-bottom: 2vw;
+    margin-bottom: 4vw;
 }
 
 .tokenomics .ca {
