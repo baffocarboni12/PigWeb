@@ -743,13 +743,13 @@ img {
 }
 
 .tokenomics h1 {
-    margin-bottom: 4vw;
-    padding-left: 5vw;
-    text-align: center;
+    margin-bottom: 50vw;
+    padding-left: 15vw;
+    text-align: left;
 }
 
 .tokenomics .left img {
-    margin-bottom: 5vw;
+    margin-bottom: 15vw;
 }
 
 /* -----------------footer-------- */
