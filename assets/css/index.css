@@ -1386,36 +1386,6 @@ footer .socials a img {
         text-align: center;
         padding-left: 0;
     }
-    .tokenomics .ca {
-        position: absolute;
-        right: 22vw;
-        margin-top: 12vw;
-    }
-    .tokenomics .ca input {
-        position: relative;
-        width: 60vw;
-        background: #EAFF15;
-        padding: 1.2vw 2vw;
-        border: 3px solid #000;
-        transform: skewY(-2.35deg);
-        margin-top: -3vw;
-        color: #000;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.00);
-        font-family: Akbar;
-        font-size: 2.5vw;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 130%;
-        /* 130% */
-    }
-    .tokenomics .ca .btn-group {
-        position: absolute;
-        right: -0.5vw;
-        top: -10vw;
-    }
-    .tokenomics .ca .btn-group a img {
-        width: 17vw;
-    }
 
     /* -----------------footer-------- */
     footer {
