@@ -828,7 +828,18 @@ footer .socials a img {
         width: 50%;
     }
 }
+.header .center-menu .right-side-menu {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6.4px; /* .5vw at 1280px is 6.4px */
+}
 
+.header .center-menu .right-side-menu a:nth-child(4) img:hover {
+    transform: translateY(-3px);
+    filter: drop-shadow(10px 20px rgba(0, 0, 0, 0.2));
+}
 /* ----------------------------@ 980px--------
 ------- */
 
@@ -1013,6 +1024,55 @@ footer .socials a img {
     }
     .btn1 img {
         width: 2.5vw;
+        .header .center-menu .right-side-menu {
+            margin-left: auto;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: .5vw;
+        }
+        
+        .header .center-menu .right-side-menu a img {
+            width: 5vw;
+            padding: .1vw;
+            height: auto;
+            transition: all 0.3s;
+            margin-top: -20vw;
+            margin-left: 26vw;
+            margin-right: -25vw;
+        }
+        
+        .header .center-menu .right-side-menu a:nth-child(1) {
+            animation: bounceInDown 2.5s;
+        }
+        
+        .header .center-menu .right-side-menu a:nth-child(2) {
+            animation: bounceInDown 2.8s;
+        }
+        
+        .header .center-menu .right-side-menu a img:hover {
+            transform: scale(1.1);
+        }
+        
+        .header .center-menu .right-side-menu a:nth-child(4) img {
+            width: 10vw;
+        }
+        
+        .header .center-menu .right-side-menu a:nth-child(4) img:hover {
+            transform: scale(1.1);
+            filter: drop-shadow(10px 20px rgba(0, 0, 0, 0.2));
+        }
+        
+        .header .center-menu .right-side-menu a img (10) {
+            width: 5vw;
+            padding: .1vw;
+            height: auto;
+            transition: all 0.3s;
+            margin-top: -20vw;
+            margin-right: -25vw;
+            margin-left: 26vw;
+        }
+            
     }
     /* -----------------hero-section------------
 ---------- */
