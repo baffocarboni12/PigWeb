@@ -221,7 +221,6 @@ img {
 }
 
 .center-menu {
-    width: 75%;
     height: auto;
     display: flex;
     flex-direction: row;
